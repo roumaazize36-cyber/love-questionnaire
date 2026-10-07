@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #ffd6e7;
+    font-family: Arial, sans-serif;
+    color: #c2185b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.card {
+    width: 80%;
+    max-width: 600px;
+    min-height: 330px;
+
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 25px;
+    padding: 40px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(194, 24, 91, 0.15);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 17px;
+    color: #ad1457;
+}
+
+#progress {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #c2185b;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 35px 0;
+    line-height: 1.4;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+}
+
+#yesButton {
+    background: #f48fb1;
+    color: white;
+}
+
+#noButton {
+    background: #e57373;
+    color: white;
+    position: relative;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.hearts {
+    position: fixed;
+    top: 25px;
+    left: 0;
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 25px;
+    letter-spacing: 20px;
+
+    color: #e91e63;
+}
